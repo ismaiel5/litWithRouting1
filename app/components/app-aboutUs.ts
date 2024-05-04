@@ -1,8 +1,8 @@
 import {LitElement, html, css} from 'lit';
 import { customElement} from 'lit/decorators.js';
 
-@customElement('cv-about-us')
-export class cvAboutUs  extends LitElement {
+@customElement('app-about-us')
+export class appAboutUs  extends LitElement {
 
     render(){
         return  html`

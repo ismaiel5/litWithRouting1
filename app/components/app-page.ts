@@ -2,8 +2,8 @@ import {html, css, LitElement} from 'lit';
 import {customElement, property} from 'lit/decorators.js';
 import {pages} from '../modules/pages';
 
-@customElement('cv-page')
-export class cvPage extends LitElement{
+@customElement('app-page')
+export class appPage extends LitElement{
 
     @property()
     page : string = "home";

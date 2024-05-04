@@ -1,8 +1,8 @@
 import { html, css, LitElement} from 'lit';
 import {customElement} from 'lit/decorators.js';
 
-@customElement('cv-home')
-export class cvHome extends LitElement{
+@customElement('app-home')
+export class appHome extends LitElement{
 
     render(){
         // get the page name/key from the url
@@ -10,9 +10,8 @@ export class cvHome extends LitElement{
 
         return html`
         <!-- passing the page to the page component -->
-        <cv-page page=${pageKey || 'home'}><cv-page>
-        <div>Home page
-        </div>`
+        <app-page page=${pageKey || 'home'}><app-page>
+        `
     }
 
 
